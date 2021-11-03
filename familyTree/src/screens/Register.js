@@ -29,7 +29,7 @@ const Register = props => {
       source={require('../assets/img/background.jpg')}
       style={styles.backgroundImg}>
       <KeyboardAvoidingView style={styles.body}>
-        <Text style={styles.loginText}>Нэвтрэх</Text>
+        <Text style={styles.loginText}>Бүртгүүлэх</Text>
         <Text style={styles.inputLabel}>Регистрийн дугаар</Text>
         <TextInput style={styles.input} value={id} onChangeText={setId} />
         <Text style={styles.inputLabel}>Овог</Text>
